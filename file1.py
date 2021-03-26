@@ -3,13 +3,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-x=np.linspace(0,3.14,10)
+x=np.linspace(0,3.14,100)
 
 
 
-print(np.sin(x))
+print(np.sin(x)*2)
 
-plt.plot(x, np.sin(x))
+plt.plot(x, np.sin(x)*2)
 plt.show()
 
 
